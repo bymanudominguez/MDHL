@@ -5,28 +5,42 @@
     font-family: cursive;
 }
 
+header {
+    background-color: aliceblue;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 h1 {
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: lighter;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
 }
 
 nav {
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    /* width: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    transform: translateY(3rem);
+    z-index: 3;
 }
 
-nav>a {
+nav a {
+    display: flex;
+    height: 3rem;
+    width: 8rem;
     background-color: rgb(69, 69, 252);
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    font-size: 20px;
     color: white;
-    margin: 10px;
-    padding: 5px 20px 5px 20px;
+    font-size: 1rem;
     border: 2px solid black;
-    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
 }
 
 .home {
@@ -42,36 +56,104 @@ nav>a {
     background-color: rgb(87, 189, 87);
 }
 
-.banner {
-    width: 100%;
-    height: 450px;
+.rules {
+    background-color: rgb(87, 189, 87);
+}
+
+.game_info {
+    background-color: rgb(87, 189, 87);
+}
+
+.header-conteiner {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
     background-image: url("./assets/design2_image1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-h2 {
+.titulo-banner {
     width: 100%;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.363);
+    background-color: rgba(255, 255, 0, 0.459);
+    align-self: flex-end;
     text-align: center;
-    font-size: 50px;
-    font-weight: lighter;
-    position: absolute;
-    top: 489px;
     border: 2px solid black;
-    background-color: rgb(247, 207, 32);
-    z-index: 1;
 }
 
-.logo {
-    height: 300px;
-    margin-top: 10px;
+main {
+    background-color: aliceblue;
+    min-height: 69vh;
+}
+
+.events {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    gap: 10vw;
+    padding-top: 5vh;
+}
+
+.Logo_Mighty_ducks-01 {
+    height: 20vh;
+}
+
+.dl-home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dl-home dt {
+    font-size: 2rem;
+}
+
+.dl-home dd {
+    font-size: 1.5rem;
+}
+
+.about-information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dl-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dl-about dt {
+    font-size: 2rem;
+}
+
+.dl-about dd {
+    font-size: 1.5rem;
+}
+
+
+
+.galery {
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.galery img {
+    border-radius: 1rem;
 }
 
 .articles {
-    width: 1300px;
+    width: 80vw;
     display: inline-block;
-    margin-left: 80px;
     vertical-align: top;
 }
 
@@ -95,26 +177,49 @@ p {
     font-size: 25px;
 }
 
+
+table {
+    border: 2px solid black;
+    height: 50vh;
+    width: 50vw;
+}
+
+thead tr th {
+    border: 2px solid rebeccapurple;
+}
+
+tbody tr td {
+    border: 2px solid red;
+}
+
+.list-lower-latin {
+    list-style: lower-latin;
+}
+
+.list-disc {
+    list-style: circle;
+}
+
 .hockey_1 {
-    height: 200px;
-    border-radius: 50px;
-    position: absolute;
-    right: 100px;
-    bottom: 150px;
+    height: 20vh;
 }
 
 .hockey_2 {
-    height: 200px;
-    border-radius: 50px;
-    position: absolute;
-    left: 30px;
-    top: 900px;
+    height: 20vh;
 }
 
 .hockey_3 {
-    height: 200px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 600px;
+    height: 20vh;
+}
+
+footer {
+    background-color: black;
+    min-height: 1vh;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    color: aliceblue;
+
 }
