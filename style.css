@@ -19,6 +19,7 @@ h1 {
     font-size: 4rem;
     font-weight: lighter;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
+    padding: 20px;
 }
 
 nav {
@@ -64,6 +65,10 @@ nav a {
     background-color: rgb(87, 189, 87);
 }
 
+.registration {
+    background-color: rgb(87, 189, 87);
+}
+
 .header-conteiner {
     width: 100vw;
     height: 40vh;
@@ -83,143 +88,243 @@ nav a {
     border: 2px solid black;
 }
 
+body {
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
 main {
     background-color: aliceblue;
     min-height: 69vh;
-}
-
-.events {
-    width: 100vw;
-    height: 30vh;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: aliceblue;
-    gap: 10vw;
-    padding-top: 5vh;
 }
 
 .Logo_Mighty_ducks-01 {
     height: 20vh;
 }
 
-.dl-home {
+.conteiner {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.dl-home dt {
-    font-size: 2rem;
-}
-
-.dl-home dd {
-    font-size: 1.5rem;
-}
-
-.about-information {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.dl-about {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.dl-about dt {
-    font-size: 2rem;
-}
-
-.dl-about dd {
-    font-size: 1.5rem;
-}
-
-
-
-.galery {
-    padding-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 50px;
+    padding: 50px;
+    margin-bottom: 100px;
 }
 
-.galery img {
-    border-radius: 1rem;
+.conteiner dl {
+    width: 70vw;
 }
 
-.articles {
-    width: 80vw;
-    display: inline-block;
-    vertical-align: top;
+.conteiner dt {
+    font-size: 2rem;
 }
 
-.contact_p {
-    margin-top: 30px;
-    margin-left: 80px;
-    display: inline-block;
-    vertical-align: top;
+.conteiner dd {
+    font-size: 1.5rem;
 }
 
-article {
-    margin: 30px;
-    font-weight: lighter;
+.contact-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.contact-p {
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+
+.rules-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 1rem;
 }
 
 h3 {
-    font-size: 30px;
-}
-
-p {
-    font-size: 25px;
-}
-
-
-table {
-    border: 2px solid black;
-    height: 50vh;
-    width: 50vw;
-}
-
-thead tr th {
-    border: 2px solid rebeccapurple;
-}
-
-tbody tr td {
-    border: 2px solid red;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px;
 }
 
 .list-lower-latin {
     list-style: lower-latin;
+    padding-left: 35px;
+
 }
 
 .list-disc {
     list-style: circle;
+    padding-left: 35px;
 }
 
-.hockey_1 {
-    height: 20vh;
+strong {
+    text-decoration: 2px underline yellow;
 }
 
-.hockey_2 {
-    height: 20vh;
+.field-regulation-description {
+    padding-left: 35px;
 }
 
-.hockey_3 {
-    height: 20vh;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery-figure {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+}
+
+.gallery-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.table-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+    height: 50vh;
+    width: 40vw;
+    background-color: rgb(195, 224, 250);
+}
+
+caption {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.subcaption {
+    text-align: start;
+    text-decoration: underline solid yellow;
+}
+
+thead tr th {
+    border: 2px solid black;
+}
+
+tbody tr td {
+    border: 2px solid rgba(83, 83, 255, 0.486);
+}
+
+.september {
+    width: 200px;
+}
+
+.maps-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mapsandmaps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+}
+
+.get-to {
+    font-size: 1.5rem;
+    text-decoration: underline yellow;
+    text-align: center;
+}
+
+.game-info-p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    width: 40vw;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.formulario {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 50px 0 50px 0;
+}
+
+fieldset {
+    border-style: none;
+    padding-bottom: 20px;
+}
+
+legend {
+    font-weight: bolder;
+}
+
+.permission-to-play {
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    padding: 5px 150px 5px 150px;
+    margin-top: 50px;
+    background-color: rgb(87, 189, 87);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.logo-game-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
     background-color: black;
     min-height: 1vh;
     text-align: center;
+    margin-top: 50px;
 }
 
 footer p {
     font-size: 1rem;
     color: aliceblue;
+}
 
+@media(max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
 }
