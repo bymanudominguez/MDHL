@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header {
+    background-color: aliceblue;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.459);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    transform: translateY(3rem);
+    z-index: 3;
+}
+
+nav a {
+    display: flex;
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(69, 69, 252);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+}
+
+.home {
+    background-color: rgb(87, 189, 87);
+
+}
+
+.about {
+    background-color: rgb(87, 189, 87);
+}
+
+.contact {
+    background-color: rgb(87, 189, 87);
+}
+
+.rules {
+    background-color: rgb(87, 189, 87);
+}
+
+.game_info {
+    background-color: rgb(87, 189, 87);
+}
+
+.registration {
+    background-color: rgb(87, 189, 87);
+}
+
+.header-conteiner {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("./assets/design2_image1.jpg");
+}
+
+.titulo-banner {
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.363);
+    background-color: rgba(255, 255, 0, 0.459);
+    align-self: flex-end;
+    text-align: center;
+    border: 2px solid black;
+}
+
+body {
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
+main {
+    background-color: aliceblue;
+    min-height: 69vh;
+}
+
+.Logo_Mighty_ducks-01 {
+    height: 20vh;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.conteiner dl {
+    width: 70vw;
+}
+
+.conteiner dt {
+    font-size: 2rem;
+}
+
+.conteiner dd {
+    font-size: 1.5rem;
+}
+
+.contact-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.contact-p {
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+
+.rules-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px;
+}
+
+.list-lower-latin {
+    list-style: lower-latin;
+    padding-left: 35px;
+
+}
+
+.list-disc {
+    list-style: circle;
+    padding-left: 35px;
+}
+
+strong {
+    text-decoration: 2px underline yellow;
+}
+
+.field-regulation-description {
+    padding-left: 35px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery-figure {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+}
+
+.gallery-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.table-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+    height: 50vh;
+    width: 40vw;
+    background-color: rgb(195, 224, 250);
+}
+
+caption {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.subcaption {
+    text-align: start;
+    text-decoration: underline solid yellow;
+}
+
+thead tr th {
+    border: 2px solid black;
+}
+
+tbody tr td {
+    border: 2px solid rgba(83, 83, 255, 0.486);
+}
+
+.september {
+    width: 200px;
+}
+
+.maps-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mapsandmaps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+}
+
+.get-to {
+    font-size: 1.5rem;
+    text-decoration: underline yellow;
+    text-align: center;
+}
+
+.game-info-p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    width: 40vw;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.formulario {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 50px 0 50px 0;
+}
+
+fieldset {
+    border-style: none;
+    padding-bottom: 20px;
+}
+
+legend {
+    font-weight: bolder;
+}
+
+.permission-to-play {
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    padding: 5px 150px 5px 150px;
+    margin-top: 50px;
+    background-color: rgb(87, 189, 87);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.logo-game-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    min-height: 1vh;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+@media(max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+}

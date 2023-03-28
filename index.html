@@ -7,41 +7,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MDHL</title>
   <link rel="shortcut icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <figure>
-      <img src="./assets/Logo_Mighty_ducks-01.png" alt="Logo-MDHL" height="150">
-    </figure>
     <h1>Mighty Ducks Hockey League</h1>
+    <nav>
+      <a class="home" href="#">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./rules.html">Rules & Policies</a>
+      <a href="./game_info.html">Info</a>
+      <a href="./registration.html">Registration</a>
+    </nav>
+    <div class="header-conteiner">
+      <h2 class="titulo-banner">Upcoming Events</h2>
+    </div>
+    <!-- <img class="design2_image1" src="./assets/design2_image1.jpg" alt="design2_image1"> -->
   </header>
-  <nav>
-    <a href="#">Home</a>
-    <a href="./aboutmdhl.html">About MDHL</a>
-    <a href="./contact.html">Contact</a>
-  </nav>
-  <main>
-    <figure>
-      <img src="./assets/hockey_1.jpg" alt="Jugador de hockey" height="150">
-    </figure>
-    <section>
-      <h2>Upcoming Events</h2>
-      <article>
-        <h3>August 4</h3>
-        <p>MDSL Fundraiser</p>
-      </article>
-      <article>
-        <h3>August 16</h3>
-        <p>Season Kick-off: Meet the Teams</p>
-      </article>
-      <article>
-        <h3>September 1</h3>
-        <p>First Game of the Season (Check Game Schedule for details).</p>
-      </article>
-    </section>
 
+  <main>
+    <div class="conteiner">
+      <img class="Logo_Mighty_ducks-01" alt="Logo_Mighty_ducks-01" src="./assets/Logo_Mighty_ducks-01.png">
+      <dl>
+        <dt>August 4</dt>
+        <dd>MDSL Fundraiser.</dd>
+        <dt>August 16</dt>
+        <dd>Season Kick-off: Meet the Teams.</dd>
+        <dt>September 1</dt>
+        <dd>First Game of the Season (Check Game Schedule for details).</dd>
+      </dl>
+    </div>
+    <div class="gallery">
+      <figure class="gallery-figure">
+        <img class="gallery-img" src="./assets/hockey_1.jpg" alt="hockey_1">
+      </figure>
+      <figure class="gallery-figure">
+        <img class="gallery-img" src="./assets/hockey_2.jpg" alt="hockey_2">
+      </figure>
+      <figure class="gallery-figure">
+        <img class="gallery-img" src="./assets/hockey_3.jpg" alt="hockey_3">
+      </figure>
+    </div>
   </main>
+  <footer>
+    <p>@bymanudominguez 2023</p>
+  </footer>
 </body>
 
 </html>
